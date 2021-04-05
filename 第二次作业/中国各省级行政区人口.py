@@ -7,6 +7,7 @@ import xlrd
 import pyecharts.options as opts
 import pyecharts.charts as charts
 
+# 从xlsx文件中读入并处理数据
 file = xlrd.open_workbook('./data/中国各省级行政区人口数.xlsx')
 table = file.sheet_by_index(0)
 raw_data = []
@@ -21,6 +22,7 @@ name_dict = {
     "内蒙古自治区": "内蒙古"
 }
 
+# 处理一下各省级行政区的名称，方便pyecharts识别
 for i in range(len(raw_data)):
     if raw_data[i][0][-1] == '省':
         raw_data[i][0] = raw_data[i][0][:-1]
@@ -31,6 +33,7 @@ for i in range(len(raw_data)):
 
     raw_data[i][1] = int(raw_data[i][1])
 
+# 把条目数据按照年份分类，total_dict的键是年份，值是列表，其中列表中的每个元素是[省级行政区名，人口数（万人）]
 total_dict = dict()
 for i in range(1999, 2016):
     total_dict[i] = list()
