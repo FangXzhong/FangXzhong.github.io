@@ -1,0 +1,39 @@
+html,
+
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eeeeee;
+  background-image: url("https://img0.baidu.com/it/u=3159046597,2529965391&fm=26&fmt=auto&gp=0.jpg");
+  background-repeat: repeat;
+}
+
+.form-search {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-search1 {
+  width: 100%;
+  max-width: 1000px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-search .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-search input {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
