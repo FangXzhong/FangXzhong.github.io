@@ -32,3 +32,19 @@
 ###### 研究人口的小明在北大快乐地学习，有一天他突然想知道中国各省在过去一段时间内的人口数量以及变化情况，于是他就动手输出了一份可视化代码
 
 [组合图表](https://fangxzhong.github.io/%E7%BB%84%E5%90%88%E5%9B%BE%E8%A1%A8.html)
+
+# 第三次作业
+
+## 作业一
+##### 人物共现分析
+###### 结合之前对作品《平凡的世界》人物出现的统计，对同一段落中出现的人物进行了统计并做了可视化。同时，将所有人物按照姓氏分成了四类并做了相应的标签
+[人物共现分析](https://github.com/FangXzhong/FangXzhong.github.io/%E7%AC%AC%E4%B8%89%E6%AC%A1%E4%BD%9C%E4%B8%9A/output/%E5%85%B3%E7%B3%BB%E5%9B%BE-%E5%B9%B3%E5%87%A1%E7%9A%84%E4%B8%96%E7%95%8C%E4%BA%BA%E7%89%A9.html)
+
+## 作业二
+##### 自制搜索引擎
+###### 在页面中分别制作了必应和百度搜索，其中必应搜索在上方
+[自制搜索引擎](https://github.com/FangXzhong/FangXzhong.github.io/%E7%AC%AC%E4%B8%89%E6%AC%A1%E4%BD%9C%E4%B8%9A/%E4%BD%9C%E4%B8%9A%E4%BA%8C.html)
+
+## 作业三
+##### 利用css制作网页，作业三是在作业二的基础上进行了完善修改，同时通过一个按钮超链接到了一个包含文字、图片的自制网站
+[css制作的网页](https://github.com/FangXzhong/FangXzhong.github.io/%E7%AC%AC%E4%B8%89%E6%AC%A1%E4%BD%9C%E4%B8%9A/%E4%BD%9C%E4%B8%9A%E4%B8%89.html)
